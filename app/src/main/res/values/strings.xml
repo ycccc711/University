@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">University</string>
+    <string name="nus_website">http://www.nus.edu.sg</string>
+    <string name="ntu_website">http://www.ntu.edu.sg</string>
+</resources>
