@@ -36,19 +36,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                if(aaUni.getItem(0).equals("NUS")){
+//                if(aaUni.getItem(0).equals("NUS")){
+//                    String nuss = getResources().getString((R.string.nus_website));
+//                    Intent nus = new Intent(Intent.ACTION_VIEW, Uri.parse(nuss));
+//                    aaUni.notifyDataSetChanged();
+//                    startActivity(nus);
+//
+//                }
+//                else if(aaUni.getItem(1).equals("NTU")){
+//                    String ntuu = getResources().getString((R.string.ntu_website));
+//                    Intent ntu = new Intent(Intent.ACTION_VIEW, Uri.parse(ntuu));
+//                    aaUni.notifyDataSetChanged();
+//                    startActivity(ntu);
+//
+//                }
+                if(position == 0){
                     String nuss = getResources().getString((R.string.nus_website));
                     Intent nus = new Intent(Intent.ACTION_VIEW, Uri.parse(nuss));
-                    aaUni.notifyDataSetChanged();
                     startActivity(nus);
-
-                }
-                else if(aaUni.getItem(1).equals("NTU")){
+                }else if(position == 1) {
                     String ntuu = getResources().getString((R.string.ntu_website));
                     Intent ntu = new Intent(Intent.ACTION_VIEW, Uri.parse(ntuu));
-                    aaUni.notifyDataSetChanged();
                     startActivity(ntu);
-
                 }
                 else {
                     Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
