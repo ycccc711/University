@@ -2,4 +2,17 @@
     <string name="app_name">University</string>
     <string name="nus_website">http://www.nus.edu.sg</string>
     <string name="ntu_website">http://www.ntu.edu.sg</string>
+
+    <string-array name="types">
+        <item>MSA</item>
+        <item>ESE</item>
+    </string-array>
+
+    <string name="submitText">SUBMIT</string>
+
+    <string name="chicken_rice">Chicken rice</string>
+    <string name="less_oil">Less Oil</string>
+    <string name="add_vegetables">Add Vegetables</string>
+    <string name="collection_time">Collection Time</string>
+    <string name="next">NEXT</string>
 </resources>
