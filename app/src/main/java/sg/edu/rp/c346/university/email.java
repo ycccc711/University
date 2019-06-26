@@ -49,6 +49,7 @@ public class email extends AppCompatActivity {
 
                 intentEmail.setType("text/plain");
                 startActivity(intentEmail);
+                //
             }
         });
 
